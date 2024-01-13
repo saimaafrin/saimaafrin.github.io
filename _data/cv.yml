@@ -101,7 +101,7 @@
       description:
         - Developed a forest fire detection and prevention system.
         - Developed both hardware and software (involving use of neural networks for recognizing fire and smoke in photos).
-        - Installed prototype in <i>“Alsos Syggrou”</i>, a wooded area in Athens, funded by the Greek government.
+        - Installed prototype in “Alsos Syggrou”, a wooded area in Athens, funded by the Greek government.
         - 'Got patent approved in Greece (<b>Patent #: 20110100016</b>) and international patent pending approval.'
         - Interviewed by CNN, as well as several newspapers, magazines and other TV channels, regarding this project.
         - Won the 2<sup>nd</sup> place in the <b>Microsoft Imagine Cup 2009</b> Greek Finals with this project.
@@ -209,6 +209,7 @@
         - '2017: NIPS Learning with Limited Labeled Data.'
     - title: 'University Committees'
       items:
+        - '2018-20: <a href="https://blog.ml.cmu.edu/">CMU MLD Blog</a> co-founder and editor.'
         - '2018-19: CMU AI+ Club co-founder and leadership team member.'
         - '2018-19: Doctoral review committee (DRC) for the CMU Machine Learning Department.'
         - '2017-18: Speaking skills committee for the CMU Machine Learning Department.'
@@ -219,7 +220,7 @@
         - '2009: Volunteer at the Lavrion refugee center, in Athens, Greece.'
         - '2008: Reforestation of mountainside in Rafina, Greece.'
         - '2008: Volunteer for the International Baccalaureate Organization (IBO) training workshop.'
-        - '2008: 13<sup style="vertical-align: top; position: relative; top: -0.5em;">th</sup> Annual Underwater and Beach Cleanup in Athens, Greece.'
+        - '2008: 13<sup style="vertical-align: top; position: relative; top: 0.5em;">th</sup> Annual Underwater and Beach Cleanup in Athens, Greece.'
         - '2008: Helped organize the "Christmas Bazaar" (fund raiser project).'
         - '2008: Helped organize the "Love Feast" (celebrating  family values and fund raising for the victims of forest fires in Greece).'
         - '2007: Reforestation in Mani, Greece.'
@@ -228,15 +229,15 @@
 - title: Major Talks
   type: table
   contents:
-    - title: '<i>Competence-based Curriculum Learning for Neural Machine Translation</i>.'
+    - title: 'Competence-based Curriculum Learning for Neural Machine Translation.'
       year: 2019
       description:
         - 'North American Chapter of the Association for Computational Linguistics (<b>NAACL</b>) conference.'
-    - title: '<i>TensorFlow Scala</i>.'
+    - title: 'TensorFlow Scala.'
       year: 2018
       description:
         - 'Invited talk at <b>Google</b>.'
-    - title: '<i>Estimating Accuracy from Unlabeled Data</i>.'
+    - title: 'Estimating Accuracy from Unlabeled Data.'
       year: 2014-18
       description:
         - Neural Information Processing Systems (<b>NIPS</b>) conference.
@@ -245,16 +246,16 @@
         - 'Invited talk at <b>Google</b>.'
         - AI Lunch at Stanford University.
         - ML Lunch at Carnegie Mellon University.
-    - title: '<i>Nonparametric Mixtures of Multi-Output Heteroscedastic Gaussian Processes</i>.'
+    - title: 'Nonparametric Mixtures of Multi-Output Heteroscedastic Gaussian Processes.'
       year: 2012
       description:
         - '"Nonparametric Methods in Machine Learning" workshop at <b>NIPS</b>.'
-    - title: '<i>Project Protasis - Forest Protection</i>.'
+    - title: 'Project Protasis - Forest Protection.'
       year: 2009
       description:
         - <b>Microsoft Hellas Headquarters</b>.
         - <b>Ministry of Transportation</b> of the Greek government (the Ministry later funded a pilot program).
-    - title: '<i>Project Protasis - Home Automation</i>.'
+    - title: 'Project Protasis - Home Automation.'
       year: 2008-09
       description:
         - <b>Microsoft Hellas Headquarters</b>.
