@@ -1,5 +1,3 @@
-# TODO: The CV PDF is out-of-date.
-
 - title: General Information
   type: map
   contents:
@@ -59,12 +57,19 @@
 - title: Work Experience
   type: table
   contents:
-    - title: 'Principal Researcher at Microsoft Semantic Machines.'
-      year: 2022-now
+    - title: 'Research Scientist at Scaled Cognition.'
+      year: 2023-now
       description:
-        - '<u>Manager:</u> <a href="https://people.eecs.berkeley.edu/~klein/" target="_blank"><b>Dan Klein</b></a>, Technical Fellow.'
-        - Leading a team working on a project related to user behavior modeling that cannot yet be shared publicly.
-    - title: 'Senior Researcher at Microsoft Semantic Machines.'
+        - Developing a new generation of rational, controllable AI models deployable as domain experts for grounded, real-world applications.
+    - title: 'Senior Principal Researcher (L67) at Microsoft Semantic Machines.'
+      year: 2023
+      description:
+        - Served as a technical leader, managing a team across both research and engineering, and helping set technical direction for the broader organization. I invested heavily in aligning research and engineering, and I worked closely with multiple partner teams at Microsoft to deliver on our objectives, while also helping improve the underlying platform and infrastructure that we leveraged.
+    - title: 'Principal Researcher (L65) at Microsoft Semantic Machines.'
+      year: 2022
+      description:
+        - Led the design and development of a system that learns to predict the next user action (e.g., sending an email, opening a file, adding specific people to a calendar invite, etc.) based on what a user and others in their network have been doing. Underlying this system is a novel Foundation Model over user actions.
+    - title: 'Senior Researcher (L64) at Microsoft Semantic Machines.'
       year: 2020-2022
       description:
         - '<u>Manager:</u> <a href="https://people.eecs.berkeley.edu/~klein/" target="_blank"><b>Dan Klein</b></a>, Technical Fellow.'
@@ -102,8 +107,6 @@
         - Won the 2<sup>nd</sup> place in the <b>Microsoft Imagine Cup 2009</b> Greek Finals with this project.
     - title: 'Web Designer and Software Developer at Curtainmakers S.A.'
       year: 2010
-    - title: 'Software Developer at vWorker.com.'
-      year: 2009-10
     - title: 'Founder of Project Protasis – Home Automation.'
       year: 2007-09
       description: 
@@ -112,10 +115,14 @@
         - Was funded by the Greek government and more specifically, by the Organization of School Buildings.
         - Interviewed by NBC, as well as several newspapers, magazines and other TV channels, regarding this project.
         - Won the <b>Microsoft Imagine Cup 2008</b> Greek Finals with this project and represented Greece in the Imagine Cup 2008 Worldwide Finals, in Paris, France, competing against teams from universities, at age of only 16 and having worked without a team or a mentor.
-    - title: 'Software Developer and I.T. Professional at Sigma Group Inc.'
-      year: 2007-08
-    - title: 'Software Developer and I.T. Professional at Embiria S.A.'
-      year: 2006
+
+- title: Patents
+  type: table
+  contents:
+    - title: '<a href="https://patents.google.com/patent/US20230367602A1/en" target="_blank"><b>Speculative Execution of Dataflow Program Nodes (US 17/815,904).</b></a>'
+      year: 2022
+    - title: '<a href="https://patents.google.com/patent/US20220327288A1/en" target="_blank"><b>Semantic Parsing of Utterance Using Contractive Paraphrasing (US 17/229,637).</b></a>'
+      year: 2021
 
 - title: Open Source Projects
   type: table
@@ -194,7 +201,7 @@
   type: nested_list
   contents:
     - title: 'Program Committees'
-      items: 'ACL (2020), ICML (2019), NeurIPS (2018-19), EMNLP (2018-19), PLOS-ONE (2018-19), IEEE-TPAMI (2018), and NIPS-AKBC (2016).'
+      items: 'NeurIPS (2018-23), TMLR (2023), ACL (2020), JMLR (2020), EMNLP (2018-20), ICML (2019), PLOS-ONE (2018-19), IEEE-TPAMI (2018), and NIPS-AKBC (2016).'
     - title: 'Conference Workshops Organized'
       items:
         - '2019: ICML Adaptive & Multi-Task Learning.'
@@ -261,12 +268,12 @@
 - title: Software Development Skills
   type: list
   contents:
-    - '<u>GitHub:</u> <a href="https://github.com/eaplatanios" target="_blank">https://github.com/eaplatanios</a> (~900 stars from open-source projects).'
-    - '<u>Machine Learning Frameworks:</u> <a href="https://www.tensorflow.org/" target="_blank">TensorFlow</a>, <a href="https://pytorch.org/" target="_blank">PyTorch</a>.'
-    - '<u>High Level Programming Languages:</u> Swift, Scala, Java, C#, C, C++, Python, Pascal, Prolog, MATLAB, Mathematica, JavaScript, ...'
-    - '<u>Low Level Programming Languages:</u> Intel 80x86 Assembly, ARM Assembly, AVR Assembly.'
-    - '<u>Programming Environments (IDEs):</u> IntelliJ IDEA, Visual Studio, MATLAB, Eclipse, NetBeans, Mathematica, SWI-Prolog IDE, ...'
-    - '<u>Database Systems:</u> PostgreSQL, MS SQL Server, MySQL.'
+    - '<u>GitHub:</u> <a href="https://github.com/eaplatanios" target="_blank">https://github.com/eaplatanios</a> (~1.2k stars from open-source projects).'
+    - '<u>Machine Learning Frameworks:</u> <a href="https://pytorch.org/" target="_blank">PyTorch</a>, <a href="https://www.tensorflow.org/" target="_blank">TensorFlow</a>.'
+    - '<u>High Level Programming Languages:</u> Rust, Python, Scala, Swift, Java, C#, C, C++, Pascal, Prolog, MATLAB, Mathematica, JavaScript, ...'
+    # - '<u>Low Level Programming Languages:</u> Intel 80x86 Assembly, ARM Assembly, AVR Assembly.'
+    # - '<u>Programming Environments (IDEs):</u> IntelliJ IDEA, Visual Studio, MATLAB, Eclipse, NetBeans, Mathematica, SWI-Prolog IDE, ...'
+    # - '<u>Database Systems:</u> PostgreSQL, MS SQL Server, MySQL.'
 
 - title: Other Interests
   type: list
