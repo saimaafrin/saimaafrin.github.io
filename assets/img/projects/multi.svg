@@ -1,0 +1,29 @@
+<svg width="400" height="100" viewBox="0 0 400 100" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, sans-serif">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+
+  <!-- Icon: Globe with Language Labels -->
+  <g transform="translate(20, 20)">
+    <!-- Globe circle -->
+    <circle cx="25" cy="25" r="20" stroke="#0288D1" stroke-width="2" fill="none"/>
+    <!-- Globe lines -->
+    <path d="M5,25 H45 M25,5 V45 M15,15 C20,35 30,35 35,15" stroke="#0288D1" stroke-width="1" fill="none"/>
+
+    <!-- Language blocks -->
+    <rect x="-5" y="2" width="20" height="14" rx="2" fill="#FFB300"/>
+    <text x="0" y="13" font-size="10" font-weight="bold" fill="black">py</text>
+
+    <rect x="35" y="2" width="20" height="14" rx="2" fill="#66BB6A"/>
+    <text x="39" y="13" font-size="10" font-weight="bold" fill="black">js</text>
+
+    <rect x="15" y="50" width="20" height="14" rx="2" fill="#AB47BC"/>
+    <text x="19" y="61" font-size="10" font-weight="bold" fill="white">cpp</text>
+  </g>
+
+  <!-- Main Title -->
+  <text x="80" y="42" font-size="22" fill="#212121" font-weight="bold">Multilingual Code Generation</text>
+
+  <!-- Subtitle -->
+  <text x="80" y="65" font-size="13" fill="#616161">
+    Cross-language programming and code generation evaluation
+  </text>
+</svg>

@@ -1,0 +1,24 @@
+<svg width="400" height="100" viewBox="0 0 400 100" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, sans-serif">
+  <rect width="100%" height="100%" fill="white"/>
+
+  <!-- Icon: Book and Gear -->
+  <g transform="translate(20, 25)">
+    <!-- Book -->
+    <rect x="0" y="0" width="20" height="30" fill="#8E24AA" rx="2"/>
+    <rect x="5" y="5" width="10" height="20" fill="#E1BEE7"/>
+    
+    <!-- Gear -->
+    <circle cx="30" cy="15" r="6" fill="#3949AB"/>
+    <circle cx="30" cy="15" r="2" fill="white"/>
+    <line x1="30" y1="7" x2="30" y2="23" stroke="white" stroke-width="1"/>
+    <line x1="22" y1="15" x2="38" y2="15" stroke="white" stroke-width="1"/>
+  </g>
+
+  <!-- Title -->
+  <text x="70" y="42" font-size="22" fill="#212121" font-weight="bold">PEFT in SE</text>
+
+  <!-- Subtitle -->
+  <text x="70" y="65" font-size="13" fill="#616161">
+    Systematic review of PEFT in SE
+  </text>
+</svg>

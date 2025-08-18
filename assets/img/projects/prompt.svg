@@ -1,0 +1,29 @@
+<svg width="400" height="100" viewBox="0 0 400 100" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI, sans-serif">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+
+  <!-- Icon: Funnel + Docs + Summary -->
+  <g transform="translate(20, 20)">
+    <!-- Funnel -->
+    <polygon points="0,0 40,0 30,15 10,15" fill="#42A5F5"/>
+    <rect x="17" y="15" width="6" height="15" fill="#1976D2"/>
+
+    <!-- Stacked Docs -->
+    <rect x="-5" y="32" width="30" height="6" fill="#B0BEC5"/>
+    <rect x="0" y="38" width="30" height="6" fill="#CFD8DC"/>
+    <rect x="5" y="44" width="30" height="6" fill="#ECEFF1"/>
+
+    <!-- Arrow -->
+    <polygon points="25,55 35,60 25,65" fill="#388E3C"/>
+
+    <!-- Summary Block -->
+    <rect x="40" y="58" width="16" height="10" rx="2" fill="#66BB6A"/>
+  </g>
+
+  <!-- Title -->
+  <text x="80" y="42" font-size="22" fill="#212121" font-weight="bold">Optimized Training Data</text>
+
+  <!-- Subtitle -->
+  <text x="80" y="65" font-size="13" fill="#616161">
+    Training data optimization for improved performance and efficiency
+  </text>
+</svg>
