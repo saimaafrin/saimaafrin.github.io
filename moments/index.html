@@ -103,14 +103,15 @@
   Photos can be swiped on touch screens, or use the arrows / dots on desktop.
 -->
 <style>
-  /* Uniform slide box; contain shows the whole photo without cropping.
+  /* Uniform slide box; cover fills the card (crops overflow).
      !important + higher specificity beats the theme's global `img` rule. */
   .moment-carousel .carousel-item { background: #1c1c1e; }
   .moment-carousel .carousel-item img {
     width: 100% !important;
     max-width: none !important;
     height: 440px !important;
-    object-fit: contain !important;
+    object-fit: cover !important;
+    object-position: center !important;
     border-radius: 0 !important;
     box-shadow: none !important;
   }
