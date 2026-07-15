@@ -89,7 +89,52 @@
     
   <h1>Publications</h1>
   <h6><span>*</span> denotes equal contribution and joint lead authorship.</h6>
-  
+
+
+<div class="row m-0 p-0" style="border-bottom: 1px solid #ddd;">
+    <div class="col-sm-11 p-0">
+      <ol class="bibliography">
+        <li><div class="row m-0 mt-3 p-0">
+          <div class="col-sm-1 p-0 abbr">
+            <a class="badge font-weight-bold danger-color-dark align-middle" style="width: 53px;" href="https://conf.researchr.org/home/icsme-2026" target="_blank">
+              ICSME
+            </a>
+          </div>
+          <div class="col-sm-11 mt-2 mt-sm-0 p-0 pl-xs-0 pl-sm-4 pr-xs-0 pr-sm-2">
+            <div id="Afrin-2026-quantize" class="col p-0">
+              <h5 class="title mb-0">Quantize with Confidence? An Empirical Study of Quantization for Code Generation.</h5>
+              <div class="author">
+                <nobr><em>S. Afrin</em>,</nobr>
+                <nobr>M. Z. Haque,</nobr>
+                and
+                <nobr>A. Mastropaolo.</nobr>
+              </div>
+              <div>
+                <p class="periodical font-italic">
+                  In 2026 IEEE International Conference on Software Maintenance and Evolution (ICSME)
+                  2026.
+                </p>
+              </div>
+              <div class="col p-0">
+                <a class="badge grey waves-effect font-weight-light mr-1" data-toggle="collapse" href="#Afrin-2026-quantize-abstract" role="button" aria-expanded="false" aria-controls="Afrin-2026-quantize-abstract">Abstract</a>
+                <a class="badge grey waves-effect font-weight-light mr-1" href="https://github.com/empirical-quant-project/empirical-quantization-study" target="_blank">Code</a>
+              </div>
+              <div class="col mt-2 p-0">
+                <div id="Afrin-2026-quantize-abstract" class="collapse">
+                  <div class="abstract card card-body font-weight-light mr-0 mr-sm-3 p-3">
+                    The growing adoption of local inference frameworks such as Ollama has made it increasingly common for developers to run large code models on laptops and other resource-constrained hardware. In these settings, post-training quantization is essential for reducing memory footprint and enabling practical deployment. However, practitioners currently lack clear guidance on how different quantization techniques affect the functional correctness and quality of generated code. In this paper, we empirically investigate the extent to which state-of-the-art quantization methods — including GPTQ, AWQ, QuIP#, AQLM, BitsAndBytes, and GGUF — affect two large code model families representative of the current state of practice: Qwen2.5-Coder and CodeLlama. Using McEval and CoderEval, two comprehensive multilingual benchmarks spanning Python and Java, we evaluate two dimensions of the generated code: (i) functional correctness, measured via pass@1; and (ii) code quality aspects – including maintainability, reliability, security, and structural complexity. We further introduce a novel analysis of quantization robustness under varying prompt complexity – characterized by Shannon entropy and token length, a dimension that, to our knowledge, remains unexplored in prior work. From the achieved results, it emerges that quantization techniques differ meaningfully in their effect on performance and code quality, for instance AQLM consistently matches or exceeds the full-precision baseline, whereas QuIP# exhibits the largest correctness degradation, particularly on complex prompts. Security attributes remain stable across model families, benchmarks, and programming languages, but sensitivity to prompt complexity varies across techniques. Overall, our findings provide practical guidance for selecting quantization strategies when deploying large code models on resource-constrained hardware. More broadly, they highlight the importance of evaluating quantized models beyond functional correctness to account for code quality and sensitivity to prompt complexity.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div></li>
+      </ol>
+    </div>
+    <div class="col-sm-1 align-self-end mt-2 p-0 pr-1">
+      <h3 class="bibliography-year">2026</h3>
+    </div>
+  </div>
 
 <div class="row m-0 p-0" style="border-bottom: 1px solid #ddd;">
     <div class="col-sm-11 p-0">
