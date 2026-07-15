@@ -92,26 +92,53 @@
 
 
 <!--
-  HOW TO ADD A PHOTO:
-  1. Put the image file in /assets/img/moments/
-  2. Copy one .project-card block below and set the src + caption.
+  HOW TO ADD AN EVENT (each event = one swipeable photo gallery):
+  1. Put the event's photos in /assets/img/moments/
+  2. Copy one full <div class="project-card"> ... </div> block below.
+  3. Give the carousel a UNIQUE id: rename "carousel-msr2026" everywhere it
+     appears in that block (id + the 4 data-target / href references).
+  4. Add one <div class="carousel-item"> per photo (keep "active" on the first),
+     and one <li> indicator per photo (keep class="active" on the first).
+  5. Edit the caption in <p class="card-text">.
+  Photos can be swiped on touch screens, or use the arrows / dots on desktop.
 -->
+<style>
+  .moment-carousel .carousel-item img { width: 100%; height: 360px; object-fit: cover; }
+  .moment-carousel .carousel-control-prev-icon,
+  .moment-carousel .carousel-control-next-icon {
+    background-color: rgba(0,0,0,.4); border-radius: 50%; padding: 1.1rem; background-size: 55% 55%;
+  }
+  .moment-carousel .carousel-indicators li { background-color: rgba(0,0,0,.6); }
+</style>
 <div id="projects" class="row mt-2 pt-3" style="overflow: visible !important;">
 
+    <!-- Event: MSR 2026 Award — Rio de Janeiro, Brazil -->
     <div class="project-card">
       <div class="card">
-        <img class="card-img-top" src="/assets/img/moments/msr2026-rio-1.jpg" alt="Receiving the MSR 2026 Distinguished Junior PC Reviewer Award at ICSE 2026, Rio de Janeiro" />
-        <div class="card-body">
-          <p class="card-text">Receiving the MSR 2026 Distinguished Junior PC Reviewer Award — ICSE 2026, Rio de Janeiro, Brazil</p>
+        <div id="carousel-msr2026" class="carousel slide moment-carousel" data-ride="carousel" data-interval="false">
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-msr2026" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-msr2026" data-slide-to="1"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="/assets/img/moments/msr2026-rio-1.jpg" alt="Receiving the MSR 2026 Distinguished Junior PC Reviewer Award at ICSE 2026, Rio de Janeiro" />
+            </div>
+            <div class="carousel-item">
+              <img src="/assets/img/moments/msr2026-rio-2.jpg" alt="MSR 2026 Distinguished Junior PC Reviewer Award certificate" />
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carousel-msr2026" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carousel-msr2026" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
         </div>
-      </div>
-    </div>
-
-    <div class="project-card">
-      <div class="card">
-        <img class="card-img-top" src="/assets/img/moments/msr2026-rio-2.jpg" alt="MSR 2026 Distinguished Junior PC Reviewer Award certificate" />
         <div class="card-body">
-          <p class="card-text">MSR 2026 Distinguished Junior PC Reviewer Award certificate — Rio de Janeiro, Brazil</p>
+          <p class="card-text">MSR 2026 Distinguished Junior PC Reviewer Award — ICSE 2026, Rio de Janeiro, Brazil</p>
         </div>
       </div>
     </div>
