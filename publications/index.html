@@ -196,7 +196,15 @@
                 </p>
               </div>
               <div class="col p-0">
+                <a class="badge grey waves-effect font-weight-light mr-1" data-toggle="collapse" href="#Afrin-2026-tokens-abstract" role="button" aria-expanded="false" aria-controls="Afrin-2026-tokens-abstract">Abstract</a>
                 <a class="badge grey waves-effect font-weight-light mr-1" href="https://arxiv.org/abs/2601.20147" target="_blank">PDF</a>
+              </div>
+              <div class="col mt-2 p-0">
+                <div id="Afrin-2026-tokens-abstract" class="collapse">
+                  <div class="abstract card card-body font-weight-light mr-0 mr-sm-3 p-3">
+                    The rapid advancement of Large Language Models (LLMs) has revolutionized software engineering automation, particularly in automated code summarization, which enhances program comprehension and supports development activities. However, training LLMs for code summarization remains computationally expensive, with performance deteriorating on longer inputs&mdash;challenges that intensify when handling millions of code-comment pairs. We investigate strategic data optimization through targeted token reduction to minimize computational overhead while maintaining summary quality. We compare three token-level reduction techniques&mdash;(i) Abstract Syntax Tree (AST) representations, (ii) Function Signatures, and (iii) CrystalBLEU-guided pruning&mdash;combined with semantic filtering, evaluating them on Java and Python in standalone and cascaded reduction settings. Our findings reveal highly language-dependent optimal strategies: AST-based optimization achieves 37% performance improvements in Java with 56&ndash;73% token reduction but shows up to 49% degradation in Python. Conversely, Function Signatures perform poorly in Java but optimally in Python, achieving 83% token reduction while maintaining quality. CrystalBLEU demonstrates cross-language robustness with 60&ndash;72% reduction. These results challenge assumptions about cross-language transferability, demonstrating that which tokens are kept matters more than how many are removed, making language-aware token curation essential for efficient code summarization.
+                  </div>
+                </div>
               </div>
             </div>
           </div>
